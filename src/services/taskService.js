@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = '/api/tasks';
+const API_URL = 'https://fullstack-project-o644.onrender.com';
 
 export const getAllTasks = async () => {
   try {
